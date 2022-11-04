@@ -24,7 +24,7 @@
     <form class="container my-5 form-group">
       <p>상품선택</p>
       <select class="form-select mt-2 gift">
-        <option>모자</option>
+        <option value="모자">모자</option>
         <option>셔츠</option>
       </select>
 
@@ -39,6 +39,10 @@
     <script>
       let select1 = document.querySelector(".gift");
       let select2 = document.querySelector(".hide");
+
+      let value = target.value;
+
+      console.log(value);
 
       if (value == 셔츠) {
         select2.classList.remove = ".hide";
