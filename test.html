@@ -8,17 +8,17 @@
   </head>
   <body>
     <input id="name" onkeyup="checkCapsLock(event)" />
-    <div id="message"></div>
+    <div id="test2"></div>
     <div>test 입니다.</div>
   </body>
 
   <script>
     function checkCapsLock(event) {
       if (event.getModifierState("CapsLock")) {
-        document.getElementById("message").innerText =
+        document.getElementById("test2").innerText =
           "Caps Lock이 켜져 있습니다.";
       } else {
-        document.getElementById("message").innerText = "";
+        document.getElementById("test2").innerText = "";
       }
     }
   </script>
