@@ -15,6 +15,8 @@ const ScrollingWrapper = styled.div`
 const Arrow11 = styled.div`
   animation: down 0.5s linear infinite alternate;
 
+  margin-left: -0.5px;
+
   @keyframes down {
     0% {
       transform: translateY(0);
@@ -27,7 +29,7 @@ const Arrow11 = styled.div`
 
 const ImageWrapper = styled.div`
   display: block;
-  width: 1.1%;
+  width: 10px;
   margin: 0 auto;
   padding: 4px 0;
 `;
@@ -37,9 +39,9 @@ const MouseScroll = () => {
     <div>
       <ScrollingWrapper>
         <ImageWrapper>
-          <Image src={Icon1} />
+          <Image src={Icon1} alt="마우스스크롤" width={18} />
           <Arrow11>
-            <Image src={Icon22} />
+            <Image src={Icon22} alt="화살표" width={20} />
           </Arrow11>
         </ImageWrapper>
       </ScrollingWrapper>
