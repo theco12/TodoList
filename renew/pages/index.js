@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Button from "../components/common-style/button";
 import MainSlider from "../components/slider/mainslider";
+import MouseScroll from "../components/main-page-section/mousescroll";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
             도입 문의하기
           </Button>
         </div>
+        <MouseScroll />
       </div>
     </div>
   );
