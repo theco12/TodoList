@@ -7,7 +7,7 @@ const Button = styled.div`
   text-align: center;
   padding: 15px 0;
   font-size: 14px;
-  margin: 0 10px;
+  margin: ${(props) => props.margin};
   cursor: pointer;
   color: ${(props) => props.color};
   background-color: ${(props) => props.bg};

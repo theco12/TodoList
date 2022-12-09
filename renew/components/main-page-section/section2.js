@@ -32,7 +32,7 @@ const IconLayout = styled.div`
 export default function Section2() {
   return (
     <Grid bg="#e8f1e9">
-      <TitleGrid>
+      <TitleGrid top="180px">
         <MainTItleStyle color="#1fa170">
           어떻게 메타버스에서도 <br />
           검증된 심리상담이 가능할까요?

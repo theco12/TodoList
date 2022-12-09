@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const SubTitleStyle = styled.p`
   font-size: 18px;
-  margin-top: 90px;
+  margin-top: 80px;
   position: absolute;
   right: 0;
   left: 0;

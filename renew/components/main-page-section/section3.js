@@ -33,7 +33,7 @@ const IconLayout = styled.div`
 export default function Section3() {
   return (
     <Grid bg="#fff">
-      <TitleGrid>
+      <TitleGrid top="170px">
         <MainTItleStyle color="#1fa170">
           메타포레스트의 <br />
           메타버스 심리상담은 무엇이 다를까요?

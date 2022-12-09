@@ -1,0 +1,20 @@
+.char1 {
+  position: absolute;
+  left: 30px;
+  bottom: 0;
+}
+
+.char2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .backgroundChar {
+    display: none;
+  }
+
+
+}
+
