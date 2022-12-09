@@ -47,7 +47,7 @@ export default function Section3() {
           메타버스 심리상담 플랫폼의 기준을 만듭니다.
         </SubTitleStyle>
       </TitleGrid>
-      <IconGrid>
+      <IconGrid top="350px">
         <IconLayout>
           <Image src={Icon4} width={280} height={280} />
           <IconTitle>실시간 얼굴 및 표정 트래킹</IconTitle>

@@ -45,7 +45,7 @@ export default function Section2() {
           철저한 검증을 거쳐 만들고 있습니다.
         </SubTitleStyle>
       </TitleGrid>
-      <IconGrid>
+      <IconGrid top="350px">
         <IconLayout>
           <Image src={Icon1} width={280} height={280} />
           <IconTitle>

@@ -47,7 +47,7 @@ export default function Section6() {
           상담센터에 직접 방문해야 하는 부담이 없습니다.
         </SubTitleStyle>
       </TitleGrid>
-      <IconGrid>
+      <IconGrid top="280px">
         <IconLayout>
           <Image src={Tablet1} width={382} height={216} />
         </IconLayout>

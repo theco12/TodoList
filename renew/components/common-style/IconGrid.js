@@ -6,7 +6,7 @@ const IconGrid = styled.div`
   position: absolute;
   right: 0;
   left: 0;
-  top: 368px;
+  top: ${(props) => props.top};
   margin: 0 auto;
   justify-content: center;
 `;
