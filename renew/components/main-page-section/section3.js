@@ -7,7 +7,7 @@ import Icon5 from "../../public/image/icon/icon5.png";
 import Icon6 from "../../public/image/icon/icon6.png";
 import IconGrid from "../common-style/IconGrid";
 import TitleGrid from "../common-style/TitleGrid";
-import PopupButton from "../style/PopupButton";
+import PopupButton from "./PopupButton";
 
 const Grid = styled.div`
   width: 100%;

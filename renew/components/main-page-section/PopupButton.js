@@ -1,6 +1,8 @@
 import Image from "next/image";
 import PlusBtn from "../../public/image/plus-btn.png";
 import styled from "styled-components";
+import ModalPage from "./modalpage";
+import ModalCertPage from "./ModalCertPage";
 
 const BtnGrid = styled.div`
   width: 100%;
@@ -45,18 +47,8 @@ const PopupButton = () => {
   return (
     <BtnGrid>
       <BtnInner>
-        <CertBtn>
-          <Check>
-            <Image src={PlusBtn} alt="plus" />
-            <BtnText>특허출원 및 MOU 현황</BtnText>
-          </Check>
-        </CertBtn>
-        <CertBtn>
-          <Check>
-            <Image src={PlusBtn} alt="plus" />
-            <BtnText>기업 증명서 확인</BtnText>
-          </Check>
-        </CertBtn>
+        <ModalPage />
+        <ModalCertPage />
       </BtnInner>
       <p style={{ textAlign: "center", fontSize: "15px", marginTop: "5px" }}>
         <b>위에 + 버튼을 누르면 현황 및 인증서 확인이 가능합니다.</b>
