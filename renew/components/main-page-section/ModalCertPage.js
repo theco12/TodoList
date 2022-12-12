@@ -88,19 +88,19 @@ export default function ModalCertPage() {
             loop={true}
           >
             <SwiperSlide>
-              <Image src={Cert1} alt="Cert1" width={366} height={512} />
+              <Image src={Cert1} alt="Cert1" width={300} height={410} />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={Cert2} alt="Cert2" width={366} height={512} />
+              <Image src={Cert2} alt="Cert2" width={300} height={410} />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={Cert3} alt="Cert3" width={366} height={512} />
+              <Image src={Cert3} alt="Cert3" width={300} height={410} />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={Cert4} alt="Cert4" width={366} height={512} />
+              <Image src={Cert4} alt="Cert4" width={300} height={410} />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={Cert5} alt="Cert5" width={366} height={512} />
+              <Image src={Cert5} alt="Cert5" width={300} height={410} />
             </SwiperSlide>
           </Swiper>
         </ModalCert>

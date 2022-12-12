@@ -88,47 +88,47 @@ export default function ModalPage() {
           onClose={closeModal}
         >
           <Swiper
-            spaceBetween={50}
+            spaceBetween={20}
             slidesPerView={5}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
             loop={true}
           >
             <SwiperSlide>
-              <Image src={MOU1} alt="MOU1" width={366} height={512} />
+              <Image src={MOU1} alt="MOU1" width={300} height={410} />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={MOU2} alt="MOU2" width={366} height={512} />
+              <Image src={MOU2} alt="MOU2" width={300} height={410} />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={MOU3} alt="MOU3" width={366} height={512} />
+              <Image src={MOU3} alt="MOU3" width={300} height={410} />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={MOU4} alt="MOU4" width={366} height={512} />
+              <Image src={MOU4} alt="MOU4" width={300} height={410} />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={MOU5} alt="MOU5" width={366} height={512} />
+              <Image src={MOU5} alt="MOU5" width={300} height={410} />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={MOU6} alt="MOU6" width={366} height={512} />
+              <Image src={MOU6} alt="MOU6" width={300} height={410} />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={MOU7} alt="MOU7" width={366} height={512} />
+              <Image src={MOU7} alt="MOU7" width={300} height={410} />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={MOU8} alt="MOU8" width={366} height={512} />
+              <Image src={MOU8} alt="MOU8" width={300} height={410} />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={MOU9} alt="MOU9" width={366} height={512} />
+              <Image src={MOU9} alt="MOU9" width={300} height={410} />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={MOU10} alt="MOU10" width={366} height={512} />
+              <Image src={MOU10} alt="MOU10" width={300} height={410} />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={MOU11} alt="MOU11" width={366} height={512} />
+              <Image src={MOU11} alt="MOU11" width={300} height={410} />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={MOU12} alt="MOU12" width={366} height={512} />
+              <Image src={MOU12} alt="MOU12" width={300} height={410} />
             </SwiperSlide>
           </Swiper>
         </ModalMOU>
