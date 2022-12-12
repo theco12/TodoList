@@ -10,6 +10,7 @@ import Section3 from "../components/main-page-section/section3";
 import Section4 from "../components/main-page-section/section4";
 import CharSlider from "../components/slider/charslider";
 import Section6 from "../components/main-page-section/section6";
+import Section8 from "../components/main-page-section/section8";
 
 export default function Home() {
   return (
@@ -36,6 +37,7 @@ export default function Home() {
       <Section4 />
       <CharSlider />
       <Section6 />
+      <Section8 />
     </div>
   );
 }
