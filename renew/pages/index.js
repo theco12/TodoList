@@ -10,7 +10,10 @@ import Section3 from "../components/main-page-section/section3";
 import Section4 from "../components/main-page-section/section4";
 import CharSlider from "../components/slider/charslider";
 import Section6 from "../components/main-page-section/section6";
+import Bgslide from "../components/slider/bgslider";
 import Section8 from "../components/main-page-section/section8";
+import Section9 from "../components/main-page-section/section9";
+import Section10 from "../components/main-page-section/section10";
 
 export default function Home() {
   return (
@@ -37,7 +40,10 @@ export default function Home() {
       <Section4 />
       <CharSlider />
       <Section6 />
+      <Bgslide />
       <Section8 />
+      <Section9 />
+      <Section10 />
     </div>
   );
 }

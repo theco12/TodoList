@@ -19,18 +19,21 @@ export default function MainSlider() {
           <Image
             src={banner1}
             style={{ width: "100%", height: "95vh", objectFit: "cover" }}
+            alt="banner1"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={banner2}
             style={{ width: "100%", height: "95vh", objectFit: "cover" }}
+            alt="banner2"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={banner3}
             style={{ width: "100%", height: "95vh", objectFit: "cover" }}
+            alt="banner3"
           />
         </SwiperSlide>
       </Swiper>

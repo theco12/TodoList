@@ -47,7 +47,7 @@ export default function Section2() {
       </TitleGrid>
       <IconGrid top="350px">
         <IconLayout>
-          <Image src={Icon1} width={280} height={280} />
+          <Image src={Icon1} width={280} height={280} alt="icon1" />
           <IconTitle>
             대학과 협약을 통한 공동연구 및 <br />
             메타버스 플랫폼을 활용한 논문 게재
@@ -58,7 +58,7 @@ export default function Section2() {
           </IconSubTitle>
         </IconLayout>
         <IconLayout>
-          <Image src={Icon2} width={280} height={280} />
+          <Image src={Icon2} width={280} height={280} alt="icon2" />
           <IconTitle>
             전문가를 통해 검증된
             <br /> 심리검사지
@@ -69,7 +69,7 @@ export default function Section2() {
           </IconSubTitle>
         </IconLayout>
         <IconLayout>
-          <Image src={Icon3} width={280} height={280} />
+          <Image src={Icon3} width={280} height={280} alt="icon3" />
           <IconTitle>
             메타버스 심리상담 <br />
             전문 인력

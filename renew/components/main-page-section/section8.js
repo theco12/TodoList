@@ -34,7 +34,7 @@ const IconLayout = styled.div`
 export default function Section6() {
   return (
     <Grid bg="#b4e2de">
-      <TitleGrid top="90px">
+      <TitleGrid top="80px">
         <MainTItleStyle color="#55689d">
           비대면 업무가 익숙한 요즘,
           <br />
@@ -43,10 +43,10 @@ export default function Section6() {
       </TitleGrid>
       <IconGrid top="280px">
         <IconLayout>
-          <Image src={EAP1} width={382} height={216} />
+          <Image src={EAP1} width={382} height={216} alt="EAP1" />
         </IconLayout>
         <IconLayout>
-          <Image src={EAP2} width={382} height={216} />
+          <Image src={EAP2} width={382} height={216} alt="EAP2" />
         </IconLayout>
       </IconGrid>
 

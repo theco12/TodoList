@@ -55,8 +55,8 @@ export default function Section4() {
       </TitleGrid>
 
       <div className={styles.backgroundChar}>
-        <Image src={FaceMode1} className={styles.char1} />
-        <Image src={FaceMode2} className={styles.char2} />
+        <Image src={FaceMode1} className={styles.char1} alt="Facemode1" />
+        <Image src={FaceMode2} className={styles.char2} alt="Facemode2" />
       </div>
     </Grid>
   );

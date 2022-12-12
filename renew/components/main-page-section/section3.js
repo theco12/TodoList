@@ -49,14 +49,14 @@ export default function Section3() {
       </TitleGrid>
       <IconGrid top="350px">
         <IconLayout>
-          <Image src={Icon4} width={280} height={280} />
+          <Image src={Icon4} width={280} height={280} alt="icon4" />
           <IconTitle>실시간 얼굴 및 표정 트래킹</IconTitle>
           <IconSubTitle>
             웹캠으로 얼굴 및 표정 트래킹 구현 기술 보유
           </IconSubTitle>
         </IconLayout>
         <IconLayout>
-          <Image src={Icon5} width={280} height={280} />
+          <Image src={Icon5} width={280} height={280} alt="icon5" />
           <IconTitle>메타버스 내 표정 및 음성 데이터 분석</IconTitle>
           <IconSubTitle>
             보이스 필터 음성변조 기술 <br />
@@ -64,7 +64,7 @@ export default function Section3() {
           </IconSubTitle>
         </IconLayout>
         <IconLayout>
-          <Image src={Icon6} width={280} height={280} />
+          <Image src={Icon6} width={280} height={280} alt="icon6" />
           <IconTitle>메타버스 개발 전문 인력</IconTitle>
           <IconSubTitle>기술 전담팀 보유</IconSubTitle>
         </IconLayout>

@@ -5,26 +5,16 @@ import Image from "next/image";
 import TitleGrid from "../common-style/TitleGrid";
 import MainTItleStyle from "../common-style/MainTItleStyle";
 import SubTitleStyle from "../common-style/SubTitleStyle";
-import char1 from "../../public/image/character/char1.png";
-import char2 from "../../public/image/character/char2.png";
-import char3 from "../../public/image/character/char3.png";
-import char4 from "../../public/image/character/char4.png";
-import char5 from "../../public/image/character/char5.png";
+import forest1 from "../../public/image/forest/forest1.png";
+import forest2 from "../../public/image/forest/forest2.png";
+import forest3 from "../../public/image/forest/forest3.png";
+import forest4 from "../../public/image/forest/forest4.png";
+import forest5 from "../../public/image/forest/forest5.png";
+import Button from "../common-style/button";
+import ButtonLayout from "../common-style/ButtonLayout";
+import BottomTextLayout from "../common-style/BottomTextLayout";
 
-const Grid = styled.div`
-  width: 100%;
-  height: 1100px;
-  margin: 0 auto;
-  position: relative;
-  background-color: ${(props) => props.bg};
-`;
-
-const SwiperGrid = styled.div`
-  position: relative;
-  top: 400px;
-`;
-
-export default function CharSlider() {
+const MouSlider = () => {
   return (
     <Grid>
       <TitleGrid top="160px">
@@ -68,4 +58,6 @@ export default function CharSlider() {
       </SwiperGrid>
     </Grid>
   );
-}
+};
+
+export default MouSlider;

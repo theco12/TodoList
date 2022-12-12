@@ -35,7 +35,7 @@ const IconLayout = styled.div`
 export default function Section6() {
   return (
     <Grid bg="#e8f1e9">
-      <TitleGrid top="90px">
+      <TitleGrid top="80px">
         <MainTItleStyle color="#1fa170">
           PC, 모바일, 태블릿
           <br />
@@ -49,13 +49,13 @@ export default function Section6() {
       </TitleGrid>
       <IconGrid top="280px">
         <IconLayout>
-          <Image src={Tablet1} width={382} height={216} />
+          <Image src={Tablet1} width={382} height={216} alt="Tablet1" />
         </IconLayout>
         <IconLayout>
-          <Image src={Tablet2} width={382} height={216} />
+          <Image src={Tablet2} width={382} height={216} alt="Tablet2" />
         </IconLayout>
         <IconLayout>
-          <Image src={Tablet3} width={382} height={216} />
+          <Image src={Tablet3} width={382} height={216} alt="Tablet3" />
         </IconLayout>
       </IconGrid>
 
