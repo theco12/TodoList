@@ -9,5 +9,8 @@ const IconGrid = styled.div`
   top: ${(props) => props.top};
   margin: 0 auto;
   justify-content: center;
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
 `;
 export default IconGrid;
