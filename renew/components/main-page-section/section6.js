@@ -10,14 +10,7 @@ import TitleGrid from "../common-style/TitleGrid";
 import Button from "../common-style/button";
 import ButtonLayout from "../common-style/ButtonLayout";
 import BottomTextLayout from "../common-style/BottomTextLayout";
-
-const Grid = styled.div`
-  width: 100%;
-  height: 700px;
-  margin: 0 auto;
-  position: relative;
-  background-color: ${(props) => props.bg};
-`;
+import Grid from "../common-style/Grid";
 
 const IconTitle = styled.h5`
   font-size: 16px;
@@ -34,7 +27,7 @@ const IconLayout = styled.div`
 
 export default function Section6() {
   return (
-    <Grid bg="#e8f1e9">
+    <Grid bg="#e8f1e9" height="700px" MobileHeight="1000px">
       <TitleGrid top="80px">
         <MainTItleStyle color="#1fa170">
           PC, 모바일, 태블릿
@@ -49,13 +42,31 @@ export default function Section6() {
       </TitleGrid>
       <IconGrid top="280px">
         <IconLayout>
-          <Image src={Tablet1} width={382} height={216} alt="Tablet1" />
+          <Image
+            src={Tablet1}
+            width={382}
+            height={216}
+            layout="responsive"
+            alt="Tablet1"
+          />
         </IconLayout>
         <IconLayout>
-          <Image src={Tablet2} width={382} height={216} alt="Tablet2" />
+          <Image
+            src={Tablet2}
+            width={382}
+            height={216}
+            layout="responsive"
+            alt="Tablet2"
+          />
         </IconLayout>
         <IconLayout>
-          <Image src={Tablet3} width={382} height={216} alt="Tablet3" />
+          <Image
+            src={Tablet3}
+            width={382}
+            height={216}
+            layout="responsive"
+            alt="Tablet3"
+          />
         </IconLayout>
       </IconGrid>
 

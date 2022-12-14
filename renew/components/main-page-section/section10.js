@@ -13,14 +13,7 @@ import styles from "../../styles/Onoff.module.css";
 import Line from "../../public/image/line.png";
 import Line2 from "../../public/image/line2.png";
 import Button from "../common-style/button";
-
-const Grid = styled.div`
-  width: 100%;
-  height: 740px;
-  margin: 0 auto;
-  position: relative;
-  background-color: ${(props) => props.bg};
-`;
+import Grid from "../common-style/Grid";
 
 const StepTitle = styled.h5`
   font-size: 14px;
@@ -36,6 +29,10 @@ const StepSubTitle = styled.p`
 
 const IconLayout = styled.div`
   margin: 0 70px;
+
+  @media screen and (max-width: 768px) {
+    margin: 70px 70px;
+  }
 `;
 
 const SubText = styled.div`
@@ -48,11 +45,16 @@ const SubText = styled.div`
   font-weight: 800;
   z-index: 999;
   color: ${(props) => props.color};
+
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+    top: 1200px;
+  }
 `;
 
 export default function Section10() {
   return (
-    <Grid bg="#55689d">
+    <Grid bg="#55689d" height="740px" MobileHeight="1500px">
       <TitleGrid top="90px">
         <MainTItleStyle color="#fff">
           메타포레스트 가입과 사용방법이 궁금하신가요?

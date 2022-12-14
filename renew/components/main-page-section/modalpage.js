@@ -50,6 +50,11 @@ export default function ModalPage() {
     height: 70px;
     border-radius: 50px;
     margin: 10px auto;
+
+    @media screen and (max-width: 768px) {
+      width: 260px;
+      height: 70px;
+    }
   `;
 
   const Check = styled.div`
@@ -67,6 +72,9 @@ export default function ModalPage() {
     font-size: 16px;
     font-weight: 600;
     margin: 0 19px;
+    @media screen and (max-width: 768px) {
+      font-size: 14px;
+    }
   `;
 
   return (

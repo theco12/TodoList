@@ -9,14 +9,7 @@ import TitleGrid from "../common-style/TitleGrid";
 import Button from "../common-style/button";
 import ButtonLayout from "../common-style/ButtonLayout";
 import BottomTextLayout from "../common-style/BottomTextLayout";
-
-const Grid = styled.div`
-  width: 100%;
-  height: 700px;
-  margin: 0 auto;
-  position: relative;
-  background-color: ${(props) => props.bg};
-`;
+import Grid from "../common-style/Grid";
 
 const IconTitle = styled.h5`
   font-size: 16px;
@@ -33,7 +26,7 @@ const IconLayout = styled.div`
 
 export default function Section6() {
   return (
-    <Grid bg="#b4e2de">
+    <Grid bg="#b4e2de" height="700px" MobileHeight="800px">
       <TitleGrid top="80px">
         <MainTItleStyle color="#55689d">
           비대면 업무가 익숙한 요즘,
@@ -43,10 +36,22 @@ export default function Section6() {
       </TitleGrid>
       <IconGrid top="280px">
         <IconLayout>
-          <Image src={EAP1} width={382} height={216} alt="EAP1" />
+          <Image
+            src={EAP1}
+            width={382}
+            height={216}
+            layout="responsive"
+            alt="EAP1"
+          />
         </IconLayout>
         <IconLayout>
-          <Image src={EAP2} width={382} height={216} alt="EAP2" />
+          <Image
+            src={EAP2}
+            width={382}
+            height={216}
+            layout="responsive"
+            alt="EAP2"
+          />
         </IconLayout>
       </IconGrid>
 

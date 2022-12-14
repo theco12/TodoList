@@ -53,19 +53,49 @@ export default function CharSlider() {
           loop={true}
         >
           <SwiperSlide>
-            <Image src={forest1} width={366} height={512} alt="forest1" />
+            <Image
+              src={forest1}
+              width={366}
+              height={512}
+              layout="responsive"
+              alt="forest1"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={forest2} width={366} height={512} alt="forest2" />
+            <Image
+              src={forest2}
+              width={366}
+              height={512}
+              layout="responsive"
+              alt="forest2"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={forest3} width={366} height={512} alt="forest3" />
+            <Image
+              src={forest3}
+              width={366}
+              height={512}
+              layout="responsive"
+              alt="forest3"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={forest4} width={366} height={512} alt="forest4" />
+            <Image
+              src={forest4}
+              width={366}
+              height={512}
+              layout="responsive"
+              alt="forest4"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={forest5} width={366} height={512} alt="forest5" />
+            <Image
+              src={forest5}
+              width={366}
+              height={512}
+              layout="responsive"
+              alt="forest5"
+            />
           </SwiperSlide>
         </Swiper>
       </SwiperGrid>

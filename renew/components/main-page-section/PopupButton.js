@@ -9,12 +9,19 @@ const BtnGrid = styled.div`
   position: absolute;
   bottom: 160px;
   cursor: pointer;
+  @media screen and (max-width: 768px) {
+    bottom: 100px;
+  }
 `;
 
 const BtnInner = styled.div`
   display: flex;
   max-width: 700px;
   margin: 0 auto;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
 `;
 
 const CertBtn = styled.div`
@@ -43,6 +50,20 @@ const BtnText = styled.div`
   margin: 0 19px;
 `;
 
+const ExplainText = styled.div`
+  text-align: center;
+  font-size: 15px;
+  margin-top: 5px;
+  font-weight: 800;
+
+  @media screen and (max-width: 768px) {
+    font-size: 11px;
+    position: relative;
+    top: 10px;
+    letter-spacing: -0.5px;
+  }
+`;
+
 const PopupButton = () => {
   return (
     <BtnGrid>
@@ -50,9 +71,9 @@ const PopupButton = () => {
         <ModalPage />
         <ModalCertPage />
       </BtnInner>
-      <p style={{ textAlign: "center", fontSize: "15px", marginTop: "5px" }}>
-        <b>위에 + 버튼을 누르면 현황 및 인증서 확인이 가능합니다.</b>
-      </p>
+      <ExplainText>
+        위에 + 버튼을 누르면 현황 및 인증서 확인이 가능합니다.
+      </ExplainText>
     </BtnGrid>
   );
 };

@@ -33,14 +33,7 @@ import TitleGrid from "../common-style/TitleGrid";
 import Button from "../common-style/button";
 import ButtonLayout from "../common-style/ButtonLayout";
 import BottomTextLayout from "../common-style/BottomTextLayout";
-
-const Grid = styled.div`
-  width: 100%;
-  height: 700px;
-  margin: 0 auto;
-  position: relative;
-  background-color: ${(props) => props.bg};
-`;
+import Grid from "../common-style/Grid";
 
 const PartnerGrid = styled.div`
   position: absolute;
@@ -58,7 +51,7 @@ const PartnerLogo = styled.div`
 
 export default function Section9() {
   return (
-    <Grid bg="#fff">
+    <Grid bg="#fff" height="700px" MobileHeight="850px">
       <TitleGrid top="110px">
         <MainTItleStyle color="#1fa170">
           비대면 업무가 익숙한 요즘,
@@ -69,79 +62,229 @@ export default function Section9() {
 
       <PartnerGrid>
         <PartnerLogo>
-          <Image src={Partner1} width={125} height={40} alt="고려대" />
+          <Image
+            src={Partner1}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="고려대"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner2} width={125} height={40} alt="한양대" />
+          <Image
+            src={Partner2}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="한양대"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner3} width={125} height={40} alt="호서대" />
+          <Image
+            src={Partner3}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="호서대"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner4} width={125} height={40} alt="순천향대" />
+          <Image
+            src={Partner4}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="순천향대"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner5} width={125} height={40} alt="조선대" />
+          <Image
+            src={Partner5}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="조선대"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner6} width={125} height={40} alt="한동대" />
+          <Image
+            src={Partner6}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="한동대"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner7} width={125} height={40} alt="울산대" />
+          <Image
+            src={Partner7}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="울산대"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner8} width={125} height={40} alt="계명대" />
+          <Image
+            src={Partner8}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="계명대"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner9} width={125} height={40} alt="명지대" />
+          <Image
+            src={Partner9}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="명지대"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner10} width={125} height={40} alt="한국교원대" />
+          <Image
+            src={Partner10}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="한국교원대"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner11} width={125} height={40} alt="서울교대" />
+          <Image
+            src={Partner11}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="서울교대"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner12} width={125} height={40} alt="안산대" />
+          <Image
+            src={Partner12}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="안산대"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner13} width={125} height={40} alt="DSC" />
+          <Image
+            src={Partner13}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="DSC"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner14} width={125} height={40} alt="세은심리상담소" />
+          <Image
+            src={Partner14}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="세은심리상담소"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner15} width={125} height={40} alt="맑음" />
+          <Image
+            src={Partner15}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="맑음"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner16} width={125} height={40} alt="마음" />
+          <Image
+            src={Partner16}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="마음"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner17} width={125} height={40} alt="아하" />
+          <Image
+            src={Partner17}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="아하"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner18} width={125} height={40} alt="부산" />
+          <Image
+            src={Partner18}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="부산"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner19} width={125} height={40} alt="대전청소년" />
+          <Image
+            src={Partner19}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="대전청소년"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner20} width={125} height={40} alt="대전2" />
+          <Image
+            src={Partner20}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="대전2"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner21} width={125} height={40} alt="포항" />
+          <Image
+            src={Partner21}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="포항"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner22} width={125} height={40} alt="창동" />
+          <Image
+            src={Partner22}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="창동"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner23} width={125} height={40} alt="유성구" />
+          <Image
+            src={Partner23}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="유성구"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner24} width={125} height={40} alt="deepvision" />
+          <Image
+            src={Partner24}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="deepvision"
+          />
         </PartnerLogo>
         <PartnerLogo>
-          <Image src={Partner25} width={125} height={40} alt="수돗물" />
+          <Image
+            src={Partner25}
+            width={125}
+            height={40}
+            layout="responsive"
+            alt="수돗물"
+          />
         </PartnerLogo>
       </PartnerGrid>
 

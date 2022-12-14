@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import "swiper/css/pagination";
 import styled from "styled-components";
 import Image from "next/image";
 import TitleGrid from "../common-style/TitleGrid";
@@ -10,14 +11,7 @@ import char2 from "../../public/image/character/char2.png";
 import char3 from "../../public/image/character/char3.png";
 import char4 from "../../public/image/character/char4.png";
 import char5 from "../../public/image/character/char5.png";
-
-const Grid = styled.div`
-  width: 100%;
-  height: 1100px;
-  margin: 0 auto;
-  position: relative;
-  background-color: ${(props) => props.bg};
-`;
+import Grid from "../common-style/Grid";
 
 const SwiperGrid = styled.div`
   position: relative;
@@ -26,7 +20,7 @@ const SwiperGrid = styled.div`
 
 export default function CharSlider() {
   return (
-    <Grid>
+    <Grid height="1100px" MobileHeight="1100px">
       <TitleGrid top="160px">
         <MainTItleStyle color="#1fa170">
           다양한 아바타로 즐겁게! <br />
@@ -48,21 +42,52 @@ export default function CharSlider() {
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log(swiper)}
           loop={true}
+
         >
           <SwiperSlide>
-            <Image src={char1} width={441} height={544} alt="char1" />
+            <Image
+              src={char1}
+              width={441}
+              height={544}
+              layout="responsive"
+              alt="char1"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={char2} width={441} height={544} alt="char2" />
+            <Image
+              src={char2}
+              width={441}
+              height={544}
+              layout="responsive"
+              alt="char2"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={char3} width={441} height={544} alt="char3" />
+            <Image
+              src={char3}
+              width={441}
+              height={544}
+              layout="responsive"
+              alt="char3"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={char4} width={441} height={544} alt="char4" />
+            <Image
+              src={char4}
+              width={441}
+              height={544}
+              layout="responsive"
+              alt="char4"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={char5} width={441} height={544} alt="char5" />
+            <Image
+              src={char5}
+              width={441}
+              height={544}
+              layout="responsive"
+              alt="char5"
+            />
           </SwiperSlide>
         </Swiper>
       </SwiperGrid>

@@ -11,15 +11,7 @@ import PopupButton from "./PopupButton";
 import FaceMode1 from "../../public/image/char_facemode1.png";
 import FaceMode2 from "../../public/image/cahr_facemode2.png";
 import styles from "../../styles/Onoff.module.css";
-
-const Grid = styled.div`
-  width: 100%;
-  height: 700px;
-  margin: 0 auto;
-  position: relative;
-
-  background-color: ${(props) => props.bg};
-`;
+import Grid from "../common-style/Grid";
 
 const IconTitle = styled.h5`
   font-size: 16px;
@@ -36,7 +28,7 @@ const IconLayout = styled.div`
 
 export default function Section4() {
   return (
-    <Grid bg="#e8f1e9">
+    <Grid bg="#e8f1e9" height="700px" MobileHeight="1000px">
       <TitleGrid top="90px">
         <MainTItleStyle color="#1fa170">
           원하는 페이스 모드로 <br />

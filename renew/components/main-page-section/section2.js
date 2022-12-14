@@ -7,19 +7,7 @@ import Icon2 from "../../public/image/icon/icon2.png";
 import Icon3 from "../../public/image/icon/icon3.png";
 import IconGrid from "../common-style/IconGrid";
 import TitleGrid from "../common-style/TitleGrid";
-
-const Grid = styled.div`
-  width: 100%;
-  height: 920px;
-  margin: 0 auto;
-  position: relative;
-  background-color: ${(props) => props.bg};
-
-  @media screen and (max-width: 768px) {
-    max-width: 400px;
-    height: 1200px;
-  }
-`;
+import Grid from "../common-style/Grid";
 
 const IconTitle = styled.h5`
   font-size: 16px;
@@ -27,17 +15,21 @@ const IconTitle = styled.h5`
 
 const IconSubTitle = styled.p`
   font-size: 13px;
-  margin-top: 20px;
+  margin-top: 10px;
 `;
 
 const IconLayout = styled.div`
   margin: 0 70px;
+
+  @media screen and (max-width: 768px) {
+    margin: 60px auto;
+  }
 `;
 
 export default function Section2() {
   return (
-    <Grid bg="#e8f1e9">
-      <TitleGrid top="180px">
+    <Grid bg="#e8f1e9" height="900px" MobileHeight="1570px">
+      <TitleGrid top="180px" MobileTop="120px">
         <MainTItleStyle color="#1fa170">
           어떻게 메타버스에서도 <br />
           검증된 심리상담이 가능할까요?
@@ -50,9 +42,9 @@ export default function Section2() {
           철저한 검증을 거쳐 만들고 있습니다.
         </SubTitleStyle>
       </TitleGrid>
-      <IconGrid top="350px">
+      <IconGrid top="350px" MobileTop="190px">
         <IconLayout>
-          <Image src={Icon1} width={280} height={280} alt="icon1" />
+          <Image src={Icon1} width={270} height={270} alt="icon1" />
           <IconTitle>
             대학과 협약을 통한 공동연구 및 <br />
             메타버스 플랫폼을 활용한 논문 게재
@@ -63,7 +55,7 @@ export default function Section2() {
           </IconSubTitle>
         </IconLayout>
         <IconLayout>
-          <Image src={Icon2} width={280} height={280} alt="icon2" />
+          <Image src={Icon2} width={270} height={270} alt="icon2" />
           <IconTitle>
             전문가를 통해 검증된
             <br /> 심리검사지
@@ -74,7 +66,7 @@ export default function Section2() {
           </IconSubTitle>
         </IconLayout>
         <IconLayout>
-          <Image src={Icon3} width={280} height={280} alt="icon3" />
+          <Image src={Icon3} width={270} height={270} alt="icon3" />
           <IconTitle>
             메타버스 심리상담 <br />
             전문 인력
