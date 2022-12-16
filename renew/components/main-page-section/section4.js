@@ -12,6 +12,7 @@ import FaceMode1 from "../../public/image/char_facemode1.png";
 import FaceMode2 from "../../public/image/cahr_facemode2.png";
 import styles from "../../styles/Onoff.module.css";
 import Grid from "../common-style/Grid";
+import Switch from "./Switch";
 
 const IconTitle = styled.h5`
   font-size: 16px;
@@ -46,6 +47,7 @@ export default function Section4() {
         </SubTitleStyle>
       </TitleGrid>
 
+      <Switch />
       <div className={styles.backgroundChar}>
         <Image src={FaceMode1} className={styles.char1} alt="Facemode1" />
         <Image src={FaceMode2} className={styles.char2} alt="Facemode2" />
