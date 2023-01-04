@@ -58,6 +58,7 @@ const ModalWrapper = styled.div`
   left: 0;
   z-index: 1000;
   overflow: auto;
+  text-align: center;
   outline: 0;
 `;
 

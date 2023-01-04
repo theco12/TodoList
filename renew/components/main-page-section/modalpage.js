@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Link from "next/link";
-import Modal from "../main-page-section/Modal";
 import Image from "next/image";
 import { useState } from "react";
 import styled from "styled-components";
@@ -97,7 +96,7 @@ export default function ModalPage() {
         >
           <Swiper
             spaceBetween={20}
-            slidesPerView={5}
+            slidesPerView={1}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
             loop={true}
