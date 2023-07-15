@@ -1,10 +1,10 @@
 import react from "react";
-import Router from "./Router";
+import RouterFile from "./RouterFile";
 
 const App = () => {
   return (
     <>
-      <Router />
+      <RouterFile />
     </>
   );
 };

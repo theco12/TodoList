@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Todoapp from "./pages/Todoapp/Todoapp";
 
-const Router = () => {
+const RouterFile = () => {
   return (
     <BrowserRouter>
       <Routes>
@@ -16,4 +16,4 @@ const Router = () => {
   );
 };
 
-export default Router;
+export default RouterFile;

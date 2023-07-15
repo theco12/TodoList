@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import AddTodo from "../../components/AddTodo/AddTodo";
+import Todolist from "../../components/Todo/Todolist";
 
 export default function Todoapp() {
   const [todos, setTodos] = useState([
@@ -10,21 +11,21 @@ export default function Todoapp() {
 
   const handleAdd = (todo) => {
     setTodos([...todos, todo]);
-    console.log(todo);
+  };
+
+  const handleUpdate = (updated) => {
+    setTodos(todos.map((todo) => (todo.id === updated.id ? updated : todo)));
+  };
+
+  const handleDelete = (deleted) => {
+    setTodos(todos.filter((todo) => todo.id !== deleted));
   };
 
   return (
     <section>
       <ul>
         {todos.map((todo) => (
-          <ul>
-            <li key={todo.id}>
-              {" "}
-              <input type="checkbox" />
-              {todo.text}
-              
-            </li>
-          </ul>
+          <Todolist key={todo.id} todolist={todo} onUpdate={handleUpdate} onDelete={handleDelete} />
         ))}
       </ul>
       <AddTodo onAdd={handleAdd} />
